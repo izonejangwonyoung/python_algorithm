@@ -1,3 +1,4 @@
+#세 정수의 중간값 구하기
 def med3(a,b,c):
     if a>=b:
         if b>=c:
