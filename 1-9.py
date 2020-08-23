@@ -1,7 +1,7 @@
 # a부터 b까지 정수의 합을 구하자 (for문 이용)
 
 import time
-
+import os
 
 
 print("a부터 b까지 정수의 합을 구하는 프로그램을 시동합니다....")
