@@ -1,0 +1,13 @@
+#가로,세로가 정수이고 넓이가 area인 직사각형에서의 변의 길이 나열하기
+
+
+
+area=int(input("직사각형의 넓이를 입력하세요. :"))
+
+for i in range(1,1+area):
+    if i*i> area:
+        break
+
+    if area%i: continue
+
+    print(i,"X",area//i)
