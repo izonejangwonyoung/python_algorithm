@@ -6,6 +6,8 @@ counter=0
 prime=[None]*500
 
 
+
+
 prime[ptr]=2
 ptr+=1
 
@@ -23,3 +25,5 @@ for i in range(ptr):
     print(prime[i])
 
 print(f'나눗셈을 실행한 획수:{counter}')
+
+
