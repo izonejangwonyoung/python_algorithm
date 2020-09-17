@@ -1,5 +1,5 @@
 from enum import Enum
-from chainedHash import ChainedHash
+from chained_hash import ChainedHash
 
 Menu = Enum('Menu', ['추가', '삭제', '검색', '덤프', '종료'])  # 메뉴를 선언
 
