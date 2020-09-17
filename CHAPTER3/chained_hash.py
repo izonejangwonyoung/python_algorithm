@@ -1,3 +1,4 @@
+#3-6_test
 from __future__ import annotations 
 from typing import Any,Type
 import hashlib
@@ -27,7 +28,7 @@ class ChainedHash:
     def search(self,key:Any)-> Any:
 
         hash=self.hash_value(key)
-        p=self.table(hash)
+        p=self.table[hash]
 
         while p is not None:
             if p.key ==key:
