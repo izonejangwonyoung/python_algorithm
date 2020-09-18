@@ -159,3 +159,5 @@ class LinkedListIterator:
             data=self.current.data
             self.current=self.current.next
             return data
+
+
