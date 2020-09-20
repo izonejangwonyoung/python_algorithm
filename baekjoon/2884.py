@@ -22,8 +22,7 @@
 
 def alarm_early_set():
 
-    time=int(input())
-    minute=int(input())
+    time,minute = map(int,input().split()) 
 
 
     process_calc=(time*60)+minute
