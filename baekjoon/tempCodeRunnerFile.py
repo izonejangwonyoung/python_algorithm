@@ -1,2 +1,3 @@
- # N=int(sys.stdin.readline())
-    # X=int(sys.stdin.readline())
+while (a+b==ab):
+    #     count=0
+    #     count+=1
